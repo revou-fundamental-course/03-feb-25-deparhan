@@ -1,1 +1,59 @@
 /* ini file CSS */
+
+body {
+  font-family: monospace;
+}
+
+main {
+  max-width: 750px;
+  justify-self: center;
+
+  /* backgorund matter */
+  background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+section {
+  padding: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group {
+  margin-top: 16px;
+}
+
+button {
+  background-color: coral;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.bg-coral {
+  background-color: coral;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-oraned {
+  background-color: orangered;
+}
+
+.remark {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+footer {
+  text-align: center;
+}

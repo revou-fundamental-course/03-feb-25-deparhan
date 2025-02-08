@@ -4,17 +4,75 @@
     <meta charset="UTF-8" />
     <!-- Tag untuk responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Website Konversi Suhu</title>
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="css\styles.css" />
   </head>
 
   <body>
-    <header></header>
+    <header class="main-header">
+      <h1>Konversi Suhu</h1>
+    </header>
 
-    <main></main>
+    <main>
+      <!-- introduction -->
+      <section>
+        <p>
+          Masukan suhu derajat Celsius (&deg;C) ke kotak dibawah, lalu klik
+          tombol konversi untuk mendapatkan hasil konversi dalam bentuk
+          Fahrenheit (&deg;F)
+        </p>
+      </section>
 
-    <footer></footer>
+      <!-- form input suhu yang ingin d konversi -->
+      <section>
+        <div class="input-group">
+          <label for="main-input">Celsius</label>
+          <input type="number" id="main-input" />
+        </div>
+
+        <div class="button-group">
+          <button class="bg-coral">Konversi</button>
+          <button class="bg-orange">Reset</button>
+          <button class="bg-oranged">Reverse</button>
+        </div>
+      </section>
+
+      <!-- hasil konversi -->
+      <section>
+        <div>
+          <label for="main-result">Fahrenheit</label>
+          <input type="text" id="main-result" readonly />
+        </div>
+      </section>
+
+      <!-- cara konversi suhu -->
+      <section>
+        <div class="input-group">
+          <label for="cara-konversi">Cara Konversi</label>
+          <input type="text" id="cara-konversi" readonly />
+        </div>
+      </section>
+
+      <!-- penjelasan rumus konversi suhu -->
+      <section>
+        <header>
+          <h3>Cara Konversi Dari Celsius (&deg;C) ke Fahrenheit (&deg;F)</h3>
+        </header>
+
+        <hr />
+
+        <article>
+          <p>Suhu <span class="remark">S</span></p>
+          <!-- nnti lanjutin dep -->
+          <p>S<sub>(&deg;F)</sub>=</p>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Made by Farhan - 2025</p>
+    </footer>
   </body>
 </html>
