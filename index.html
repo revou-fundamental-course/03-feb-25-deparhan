@@ -33,7 +33,9 @@
         </div>
 
         <div class="button-group">
-          <button class="bg-coral">Konversi</button>
+          <button class="bg-coral" type="button" onclick="validateForm()" ;>
+            Konversi
+          </button>
           <button class="bg-orange">Reset</button>
           <button class="bg-oranged">Reverse</button>
         </div>
@@ -43,7 +45,12 @@
       <section>
         <div>
           <label for="main-result">Fahrenheit</label>
-          <input type="text" id="main-result" readonly />
+          <input
+            type="number"
+            id="main-result"
+            readonly=""
+            style="width: 657px"
+          />
         </div>
       </section>
 
@@ -74,5 +81,7 @@
     <footer>
       <p>Made by Farhan - 2025</p>
     </footer>
+
+    <script src="js\script.js"></script>
   </body>
 </html>
